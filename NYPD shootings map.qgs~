@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="3.0.0-Girona">
+<qgis version="3.0.0-Girona" projectname="">
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
@@ -18,19 +18,19 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer id="locs_7a1e1824_de5a_46ff_835c_23e1a95ef5ea" name="locs" providerKey="delimitedtext" source="file:///C:/Users/andrew/Desktop/Police_Shootings/locs.csv?encoding=ISO-8859-1&amp;type=csv&amp;xField=longitude&amp;yField=latitude&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" checked="Qt::Checked" expanded="1">
+    <layer-tree-layer id="locs_7a1e1824_de5a_46ff_835c_23e1a95ef5ea" expanded="1" checked="Qt::Checked" name="locs" providerKey="delimitedtext" source="file:///C:/Users/andrew/Desktop/Police_Shootings/locs.csv?encoding=ISO-8859-1&amp;type=csv&amp;xField=longitude&amp;yField=latitude&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_adb3830a_89db_4017_b052_8631263dfbaf" name="geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f" providerKey="ogr" source="../Police Precincts/geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f.dbf" checked="Qt::Checked" expanded="1">
+    <layer-tree-layer id="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_adb3830a_89db_4017_b052_8631263dfbaf" expanded="1" checked="Qt::Checked" name="geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f" providerKey="ogr" source="./Police Precincts/geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f.dbf">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_22f7db12_ed76_4dcf_83fb_05b0b6765bdd" name="geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f" providerKey="ogr" source="../Police Precincts/geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f.shx" checked="Qt::Checked" expanded="1">
+    <layer-tree-layer id="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_22f7db12_ed76_4dcf_83fb_05b0b6765bdd" expanded="1" checked="Qt::Checked" name="geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f" providerKey="ogr" source="./Police Precincts/geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f.shx">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_902f7658_ea40_454b_87f4_607dca6779bf" name="geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f" providerKey="ogr" source="../Police Precincts/geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f.dbf" checked="Qt::Checked" expanded="1">
+    <layer-tree-layer id="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_902f7658_ea40_454b_87f4_607dca6779bf" expanded="1" checked="Qt::Checked" name="geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f" providerKey="ogr" source="./Police Precincts/geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f.shp">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_f66e757b_b164_40ba_b250_c86671fc14f4" name="geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f" providerKey="ogr" source="../Police Precincts/geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f.shp" checked="Qt::Checked" expanded="1">
+    <layer-tree-layer id="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_f66e757b_b164_40ba_b250_c86671fc14f4" expanded="1" checked="Qt::Checked" name="geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f" providerKey="ogr" source="./Police Precincts/geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f.shp">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -41,13 +41,13 @@
       <item>locs_7a1e1824_de5a_46ff_835c_23e1a95ef5ea</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings unit="1" enabled="0" tolerance="12" mode="2" type="1" intersection-snapping="0">
+  <snapping-settings enabled="0" type="1" intersection-snapping="0" mode="2" tolerance="12" unit="1">
     <individual-layer-settings>
-      <layer-setting id="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_22f7db12_ed76_4dcf_83fb_05b0b6765bdd" units="1" enabled="0" tolerance="12" type="1"/>
-      <layer-setting id="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_902f7658_ea40_454b_87f4_607dca6779bf" units="1" enabled="0" tolerance="12" type="1"/>
-      <layer-setting id="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_adb3830a_89db_4017_b052_8631263dfbaf" units="1" enabled="0" tolerance="12" type="1"/>
-      <layer-setting id="locs_7a1e1824_de5a_46ff_835c_23e1a95ef5ea" units="1" enabled="0" tolerance="12" type="1"/>
-      <layer-setting id="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_f66e757b_b164_40ba_b250_c86671fc14f4" units="1" enabled="0" tolerance="12" type="1"/>
+      <layer-setting units="1" id="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_adb3830a_89db_4017_b052_8631263dfbaf" enabled="0" type="1" tolerance="12"/>
+      <layer-setting units="1" id="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_902f7658_ea40_454b_87f4_607dca6779bf" enabled="0" type="1" tolerance="12"/>
+      <layer-setting units="1" id="locs_7a1e1824_de5a_46ff_835c_23e1a95ef5ea" enabled="0" type="1" tolerance="12"/>
+      <layer-setting units="1" id="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_22f7db12_ed76_4dcf_83fb_05b0b6765bdd" enabled="0" type="1" tolerance="12"/>
+      <layer-setting units="1" id="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_f66e757b_b164_40ba_b250_c86671fc14f4" enabled="0" type="1" tolerance="12"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -75,36 +75,36 @@
     <rendermaptile>0</rendermaptile>
   </mapcanvas>
   <legend updateDrawingOrder="true">
-    <legendlayer name="locs" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" open="true">
+    <legendlayer checked="Qt::Checked" name="locs" showFeatureCount="0" drawingOrder="-1" open="true">
       <filegroup hidden="false" open="true">
-        <legendlayerfile visible="1" isInOverview="0" layerid="locs_7a1e1824_de5a_46ff_835c_23e1a95ef5ea"/>
+        <legendlayerfile isInOverview="0" layerid="locs_7a1e1824_de5a_46ff_835c_23e1a95ef5ea" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer name="geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" open="true">
+    <legendlayer checked="Qt::Checked" name="geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f" showFeatureCount="0" drawingOrder="-1" open="true">
       <filegroup hidden="false" open="true">
-        <legendlayerfile visible="1" isInOverview="0" layerid="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_adb3830a_89db_4017_b052_8631263dfbaf"/>
+        <legendlayerfile isInOverview="0" layerid="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_adb3830a_89db_4017_b052_8631263dfbaf" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer name="geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" open="true">
+    <legendlayer checked="Qt::Checked" name="geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f" showFeatureCount="0" drawingOrder="-1" open="true">
       <filegroup hidden="false" open="true">
-        <legendlayerfile visible="1" isInOverview="0" layerid="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_22f7db12_ed76_4dcf_83fb_05b0b6765bdd"/>
+        <legendlayerfile isInOverview="0" layerid="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_22f7db12_ed76_4dcf_83fb_05b0b6765bdd" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer name="geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" open="true">
+    <legendlayer checked="Qt::Checked" name="geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f" showFeatureCount="0" drawingOrder="-1" open="true">
       <filegroup hidden="false" open="true">
-        <legendlayerfile visible="1" isInOverview="0" layerid="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_902f7658_ea40_454b_87f4_607dca6779bf"/>
+        <legendlayerfile isInOverview="0" layerid="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_902f7658_ea40_454b_87f4_607dca6779bf" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer name="geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" open="true">
+    <legendlayer checked="Qt::Checked" name="geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f" showFeatureCount="0" drawingOrder="-1" open="true">
       <filegroup hidden="false" open="true">
-        <legendlayerfile visible="1" isInOverview="0" layerid="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_f66e757b_b164_40ba_b250_c86671fc14f4"/>
+        <legendlayerfile isInOverview="0" layerid="geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_f66e757b_b164_40ba_b250_c86671fc14f4" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
   <projectlayers>
-    <maplayer simplifyDrawingTol="1" minScale="1e+8" readOnly="0" autoRefreshEnabled="0" simplifyLocal="1" type="vector" simplifyDrawingHints="1" simplifyMaxScale="1" geometry="Polygon" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" refreshOnNotifyMessage="" labelsEnabled="0">
+    <maplayer simplifyDrawingTol="1" simplifyLocal="1" labelsEnabled="0" minScale="1e+8" hasScaleBasedVisibilityFlag="0" type="vector" geometry="Polygon" readOnly="0" refreshOnNotifyMessage="" maxScale="0" autoRefreshEnabled="0" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshTime="0" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>-74.25559136315213493</xmin>
         <ymin>40.4961153951708539</ymin>
@@ -112,7 +112,7 @@
         <ymax>40.91553277600007732</ymax>
       </extent>
       <id>geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_22f7db12_ed76_4dcf_83fb_05b0b6765bdd</id>
-      <datasource>../Police Precincts/geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f.shx</datasource>
+      <datasource>./Police Precincts/geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f.shx</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -147,7 +147,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -164,24 +164,24 @@
       <auxiliaryLayer/>
       <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol alpha="1" type="fill" clip_to_extent="1" name="0">
-            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="112,6,131,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="112,6,131,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option type="QString" value="" name="name"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option type="QString" value="collection" name="type"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -218,31 +218,31 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="precinct"/>
-        <alias index="1" name="" field="shape_leng"/>
-        <alias index="2" name="" field="shape_area"/>
+        <alias index="0" field="precinct" name=""/>
+        <alias index="1" field="shape_leng" name=""/>
+        <alias index="2" field="shape_area" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" field="precinct" expression=""/>
-        <default applyOnUpdate="0" field="shape_leng" expression=""/>
-        <default applyOnUpdate="0" field="shape_area" expression=""/>
+        <default field="precinct" expression="" applyOnUpdate="0"/>
+        <default field="shape_leng" expression="" applyOnUpdate="0"/>
+        <default field="shape_area" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="precinct" constraints="0"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="shape_leng" constraints="0"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="shape_area" constraints="0"/>
+        <constraint constraints="0" field="precinct" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="shape_leng" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="shape_area" unique_strength="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" field="precinct" desc=""/>
-        <constraint exp="" field="shape_leng" desc=""/>
-        <constraint exp="" field="shape_area" desc=""/>
+        <constraint exp="" desc="" field="precinct"/>
+        <constraint exp="" desc="" field="shape_leng"/>
+        <constraint exp="" desc="" field="shape_area"/>
       </constraintExpressions>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns/>
       </attributetableconfig>
       <editform>.</editform>
@@ -263,7 +263,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer simplifyDrawingTol="1" minScale="1e+8" readOnly="0" autoRefreshEnabled="0" simplifyLocal="1" type="vector" simplifyDrawingHints="1" simplifyMaxScale="1" geometry="Polygon" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" refreshOnNotifyMessage="" labelsEnabled="0">
+    <maplayer simplifyDrawingTol="1" simplifyLocal="1" labelsEnabled="0" minScale="1e+8" hasScaleBasedVisibilityFlag="0" type="vector" geometry="Polygon" readOnly="0" refreshOnNotifyMessage="" maxScale="0" autoRefreshEnabled="0" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshTime="0" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>-74.25559136315213493</xmin>
         <ymin>40.4961153951708539</ymin>
@@ -271,7 +271,7 @@
         <ymax>40.91553277600007732</ymax>
       </extent>
       <id>geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_902f7658_ea40_454b_87f4_607dca6779bf</id>
-      <datasource>../Police Precincts/geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f.dbf</datasource>
+      <datasource>./Police Precincts/geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -323,24 +323,24 @@
       <auxiliaryLayer/>
       <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol alpha="1" type="fill" clip_to_extent="1" name="0">
-            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="151,51,146,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="151,51,146,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option type="QString" value="" name="name"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option type="QString" value="collection" name="type"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -377,31 +377,31 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="precinct"/>
-        <alias index="1" name="" field="shape_leng"/>
-        <alias index="2" name="" field="shape_area"/>
+        <alias index="0" field="precinct" name=""/>
+        <alias index="1" field="shape_leng" name=""/>
+        <alias index="2" field="shape_area" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" field="precinct" expression=""/>
-        <default applyOnUpdate="0" field="shape_leng" expression=""/>
-        <default applyOnUpdate="0" field="shape_area" expression=""/>
+        <default field="precinct" expression="" applyOnUpdate="0"/>
+        <default field="shape_leng" expression="" applyOnUpdate="0"/>
+        <default field="shape_area" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="precinct" constraints="0"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="shape_leng" constraints="0"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="shape_area" constraints="0"/>
+        <constraint constraints="0" field="precinct" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="shape_leng" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="shape_area" unique_strength="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" field="precinct" desc=""/>
-        <constraint exp="" field="shape_leng" desc=""/>
-        <constraint exp="" field="shape_area" desc=""/>
+        <constraint exp="" desc="" field="precinct"/>
+        <constraint exp="" desc="" field="shape_leng"/>
+        <constraint exp="" desc="" field="shape_area"/>
       </constraintExpressions>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns/>
       </attributetableconfig>
       <editform>.</editform>
@@ -422,7 +422,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer simplifyDrawingTol="1" minScale="1e+8" readOnly="0" autoRefreshEnabled="0" simplifyLocal="1" type="vector" simplifyDrawingHints="1" simplifyMaxScale="1" geometry="Polygon" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" refreshOnNotifyMessage="" labelsEnabled="0">
+    <maplayer simplifyDrawingTol="1" simplifyLocal="1" labelsEnabled="0" minScale="1e+8" hasScaleBasedVisibilityFlag="0" type="vector" geometry="Polygon" readOnly="0" refreshOnNotifyMessage="" maxScale="0" autoRefreshEnabled="0" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshTime="0" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>-74.25559136315213493</xmin>
         <ymin>40.4961153951708539</ymin>
@@ -430,7 +430,7 @@
         <ymax>40.91553277600007732</ymax>
       </extent>
       <id>geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_adb3830a_89db_4017_b052_8631263dfbaf</id>
-      <datasource>../Police Precincts/geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f.dbf</datasource>
+      <datasource>./Police Precincts/geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f.dbf</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -482,24 +482,24 @@
       <auxiliaryLayer/>
       <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol alpha="1" type="fill" clip_to_extent="1" name="0">
-            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="251,138,7,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="251,138,7,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option type="QString" value="" name="name"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option type="QString" value="collection" name="type"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -538,36 +538,36 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="precinct"/>
-        <alias index="1" name="" field="shape_leng"/>
-        <alias index="2" name="" field="shape_area"/>
+        <alias index="0" field="precinct" name=""/>
+        <alias index="1" field="shape_leng" name=""/>
+        <alias index="2" field="shape_area" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" field="precinct" expression=""/>
-        <default applyOnUpdate="0" field="shape_leng" expression=""/>
-        <default applyOnUpdate="0" field="shape_area" expression=""/>
+        <default field="precinct" expression="" applyOnUpdate="0"/>
+        <default field="shape_leng" expression="" applyOnUpdate="0"/>
+        <default field="shape_area" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="precinct" constraints="0"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="shape_leng" constraints="0"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="shape_area" constraints="0"/>
+        <constraint constraints="0" field="precinct" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="shape_leng" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="shape_area" unique_strength="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" field="precinct" desc=""/>
-        <constraint exp="" field="shape_leng" desc=""/>
-        <constraint exp="" field="shape_area" desc=""/>
+        <constraint exp="" desc="" field="precinct"/>
+        <constraint exp="" desc="" field="shape_leng"/>
+        <constraint exp="" desc="" field="shape_area"/>
       </constraintExpressions>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns>
-          <column hidden="0" type="field" width="-1" name="precinct"/>
-          <column hidden="0" type="field" width="-1" name="shape_leng"/>
-          <column hidden="0" type="field" width="-1" name="shape_area"/>
-          <column hidden="1" type="actions" width="-1"/>
+          <column type="field" hidden="0" name="precinct" width="-1"/>
+          <column type="field" hidden="0" name="shape_leng" width="-1"/>
+          <column type="field" hidden="0" name="shape_area" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -588,7 +588,7 @@
       <previewExpression>"precinct"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer simplifyDrawingTol="1" minScale="1e+8" readOnly="0" autoRefreshEnabled="0" simplifyLocal="1" type="vector" simplifyDrawingHints="1" simplifyMaxScale="1" geometry="Polygon" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" refreshOnNotifyMessage="" labelsEnabled="0">
+    <maplayer simplifyDrawingTol="1" simplifyLocal="1" labelsEnabled="0" minScale="1e+8" hasScaleBasedVisibilityFlag="0" type="vector" geometry="Polygon" readOnly="0" refreshOnNotifyMessage="" maxScale="0" autoRefreshEnabled="0" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshTime="0" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>-74.25559136315213493</xmin>
         <ymin>40.4961153951708539</ymin>
@@ -596,7 +596,7 @@
         <ymax>40.91553277600007732</ymax>
       </extent>
       <id>geo_export_4cdfd94c_b206_4b47_bbdb_52d85f94d68f_f66e757b_b164_40ba_b250_c86671fc14f4</id>
-      <datasource>../Police Precincts/geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f.shp</datasource>
+      <datasource>./Police Precincts/geo_export_4cdfd94c-b206-4b47-bbdb-52d85f94d68f.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -648,24 +648,24 @@
       <auxiliaryLayer/>
       <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol alpha="1" type="fill" clip_to_extent="1" name="0">
-            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="198,56,241,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="198,56,241,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option type="QString" value="" name="name"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option type="QString" value="collection" name="type"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -702,31 +702,31 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="precinct"/>
-        <alias index="1" name="" field="shape_leng"/>
-        <alias index="2" name="" field="shape_area"/>
+        <alias index="0" field="precinct" name=""/>
+        <alias index="1" field="shape_leng" name=""/>
+        <alias index="2" field="shape_area" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" field="precinct" expression=""/>
-        <default applyOnUpdate="0" field="shape_leng" expression=""/>
-        <default applyOnUpdate="0" field="shape_area" expression=""/>
+        <default field="precinct" expression="" applyOnUpdate="0"/>
+        <default field="shape_leng" expression="" applyOnUpdate="0"/>
+        <default field="shape_area" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="precinct" constraints="0"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="shape_leng" constraints="0"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="shape_area" constraints="0"/>
+        <constraint constraints="0" field="precinct" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="shape_leng" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="shape_area" unique_strength="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" field="precinct" desc=""/>
-        <constraint exp="" field="shape_leng" desc=""/>
-        <constraint exp="" field="shape_area" desc=""/>
+        <constraint exp="" desc="" field="precinct"/>
+        <constraint exp="" desc="" field="shape_leng"/>
+        <constraint exp="" desc="" field="shape_area"/>
       </constraintExpressions>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns/>
       </attributetableconfig>
       <editform>.</editform>
@@ -747,7 +747,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer simplifyDrawingTol="1" minScale="1e+8" readOnly="0" autoRefreshEnabled="0" simplifyLocal="1" type="vector" simplifyDrawingHints="1" simplifyMaxScale="1" geometry="Point" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" refreshOnNotifyMessage="" labelsEnabled="0">
+    <maplayer simplifyDrawingTol="1" simplifyLocal="1" labelsEnabled="0" minScale="1e+8" hasScaleBasedVisibilityFlag="0" type="vector" geometry="Point" readOnly="0" refreshOnNotifyMessage="" maxScale="0" autoRefreshEnabled="0" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshTime="0" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>-74.16069140000000459</xmin>
         <ymin>40.57531279999999896</ymin>
@@ -790,7 +790,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -807,31 +807,31 @@
       <auxiliaryLayer/>
       <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol alpha="1" type="marker" clip_to_extent="1" name="0">
-            <layer enabled="1" class="SimpleMarker" locked="0" pass="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="114,108,230,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer locked="0" pass="0" enabled="1" class="SimpleMarker">
+              <prop v="0" k="angle"/>
+              <prop v="114,108,230,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option type="QString" value="" name="name"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option type="QString" value="collection" name="type"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -861,27 +861,27 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="latitude"/>
-        <alias index="1" name="" field="longitude"/>
+        <alias index="0" field="latitude" name=""/>
+        <alias index="1" field="longitude" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" field="latitude" expression=""/>
-        <default applyOnUpdate="0" field="longitude" expression=""/>
+        <default field="latitude" expression="" applyOnUpdate="0"/>
+        <default field="longitude" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="latitude" constraints="0"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="longitude" constraints="0"/>
+        <constraint constraints="0" field="latitude" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="longitude" unique_strength="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" field="latitude" desc=""/>
-        <constraint exp="" field="longitude" desc=""/>
+        <constraint exp="" desc="" field="latitude"/>
+        <constraint exp="" desc="" field="longitude"/>
       </constraintExpressions>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns/>
       </attributetableconfig>
       <editform>.</editform>
@@ -911,27 +911,24 @@
     <layer id="locs_7a1e1824_de5a_46ff_835c_23e1a95ef5ea"/>
   </layerorder>
   <properties>
-    <SpatialRefSys>
-      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-    </SpatialRefSys>
     <PositionPrecision>
       <Automatic type="bool">true</Automatic>
       <DecimalPlaces type="int">2</DecimalPlaces>
     </PositionPrecision>
-    <PAL>
-      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
-      <DrawRectOnly type="bool">false</DrawRectOnly>
-      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
-      <ShowingAllLabels type="bool">false</ShowingAllLabels>
-      <CandidatesLine type="int">50</CandidatesLine>
-      <ShowingCandidates type="bool">false</ShowingCandidates>
-      <CandidatesPoint type="int">16</CandidatesPoint>
-      <SearchMethod type="int">0</SearchMethod>
-      <CandidatesPolygon type="int">30</CandidatesPolygon>
-    </PAL>
     <Legend>
       <filterByMap type="bool">false</filterByMap>
     </Legend>
+    <PAL>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+      <SearchMethod type="int">0</SearchMethod>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+    </PAL>
     <Measure>
       <Ellipsoid type="QString">WGS84</Ellipsoid>
     </Measure>
@@ -942,14 +939,17 @@
     <Paths>
       <Absolute type="bool">false</Absolute>
     </Paths>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
     <Gui>
-      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
-      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
-      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
       <CanvasColorRedPart type="int">255</CanvasColorRedPart>
       <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
-      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
       <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
     </Gui>
   </properties>
   <visibility-presets/>
