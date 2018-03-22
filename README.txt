@@ -1,6 +1,6 @@
 TASK:
 
-This project analyzes data from all fatal police shootings and all police officer deaths in the United States from 2015 and 2016. Particular attention is placed on the race of the victims in order to ascertain whether any groups were disproportionately affected.
+This project analyzes data from all fatal police shootings and all police officer deaths in the United States from 2015 and 2016. Particular attention is placed on the race of the victims in order to ascertain whether any groups were disproportionately affected. Comparisons are drawn between the odds of being killed in a police fatality as an officer and as an ordinary citizen.
 -------------------------------------------------------------------------------------------------
 DATA:
 
