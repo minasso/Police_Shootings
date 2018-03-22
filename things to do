@@ -1,0 +1,17 @@
+CITIZEN
+
+refactor code to follow dry principle by making a package w functions (started)
+
+store data in sql tables instead of csv to allow for more flexible importing (done)
+
+fix data types in df using astype (not critical)
+
+----------------------------------------------
+OFFICER
+
+Use groupby to look at how each cause of death has changed throughout the years
+
+Find which state is most dangerous for police officers lately. look at how different states have had different levels of violence. graph on chloropleth map
+
+
+
